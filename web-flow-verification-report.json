@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": 497,
+  "documentsRendered": 27,
+  "internalLinksChecked": 272,
+  "flows": [
+    "知识库渲染与锚点",
+    "已读与字号",
+    "全文搜索与分类",
+    "按条件组卷",
+    "草稿刷新恢复",
+    "单选多选作答",
+    "未答交卷提示",
+    "成绩与解析",
+    "错题重练及自动移除",
+    "存储失败降级"
+  ],
+  "environment": "交互逻辑使用模拟 DOM；浏览器视觉检查单独记录于 web-visual-verification-report.json"
+}

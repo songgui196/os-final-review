@@ -1,0 +1,726 @@
+{
+  "title": "计算机操作系统（慕课版）",
+  "authors": [
+    "汤小丹",
+    "王红玲",
+    "姜华",
+    "汤子瀛"
+  ],
+  "publisher": "人民邮电出版社",
+  "edition": "2021-06 第1版",
+  "generated_date": "2026-11-21",
+  "source_file": "User-provided textbook PDF (not redistributed)",
+  "pdf_page_count": 410,
+  "body_chapters": 12,
+  "pdf_page_numbering": "1-based including front cover",
+  "page_offset": 21,
+  "original_converter": "book-to-skill/scripts/extract.py",
+  "requested_mode": "technical",
+  "actual_extractor": "pypdf",
+  "fallback_reason": "docling_unavailable",
+  "auxiliary_review": "PyMuPDF page text; visually checked PDF pages 128,208,219,264",
+  "extraction_estimated_tokens": 281814,
+  "extraction_estimate_note": "Converter heuristic, not billed usage; Chinese word counts are not reliable workload estimates.",
+  "images_review_note": "Text-layer synthesis with selected page-image checks; not an exhaustive image/OCR transcription.",
+  "scope_basis": "User-provided major-question syllabus on 2026-11-21",
+  "course_exam_date": null,
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "第1章 操作系统引论",
+      "pdf_pages": [
+        22,
+        59
+      ],
+      "printed_pages": [
+        1,
+        38
+      ],
+      "sections": [
+        {
+          "title": "1.1 操作系统的目标和作用",
+          "pdf_page": 23,
+          "printed_page": 2
+        },
+        {
+          "title": "1.2 操作系统的发展过程",
+          "pdf_page": 26,
+          "printed_page": 5
+        },
+        {
+          "title": "1.3 操作系统的基本特性",
+          "pdf_page": 36,
+          "printed_page": 15
+        },
+        {
+          "title": "1.4 操作系统的运行环境",
+          "pdf_page": 39,
+          "printed_page": 18
+        },
+        {
+          "title": "1.5 操作系统的主要功能",
+          "pdf_page": 42,
+          "printed_page": 21
+        },
+        {
+          "title": "1.6 操作系统的结构",
+          "pdf_page": 48,
+          "printed_page": 27
+        },
+        {
+          "title": "1.7 系统调用",
+          "pdf_page": 55,
+          "printed_page": 34
+        },
+        {
+          "title": "1.8 本章小结",
+          "pdf_page": 57,
+          "printed_page": 36
+        },
+        {
+          "title": "习题1 （含考研真题）",
+          "pdf_page": 58,
+          "printed_page": 37
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "第2章 进程的描述与控制",
+      "pdf_pages": [
+        60,
+        93
+      ],
+      "printed_pages": [
+        39,
+        72
+      ],
+      "sections": [
+        {
+          "title": "2.1 前趋图和程序执行",
+          "pdf_page": 61,
+          "printed_page": 40
+        },
+        {
+          "title": "2.2 进程的描述",
+          "pdf_page": 64,
+          "printed_page": 43
+        },
+        {
+          "title": "2.3 进程控制",
+          "pdf_page": 71,
+          "printed_page": 50
+        },
+        {
+          "title": "2.4 进程通信",
+          "pdf_page": 76,
+          "printed_page": 55
+        },
+        {
+          "title": "2.5 线程的概念",
+          "pdf_page": 84,
+          "printed_page": 63
+        },
+        {
+          "title": "2.6 线程的实现",
+          "pdf_page": 87,
+          "printed_page": 66
+        },
+        {
+          "title": "2.7 本章小结",
+          "pdf_page": 92,
+          "printed_page": 71
+        },
+        {
+          "title": "习题2 （含考研真题）",
+          "pdf_page": 93,
+          "printed_page": 72
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "第3章 处理机调度与死锁",
+      "pdf_pages": [
+        94,
+        129
+      ],
+      "printed_pages": [
+        73,
+        108
+      ],
+      "sections": [
+        {
+          "title": "3.1 处理机调度概述",
+          "pdf_page": 95,
+          "printed_page": 74
+        },
+        {
+          "title": "3.2 调度算法",
+          "pdf_page": 100,
+          "printed_page": 79
+        },
+        {
+          "title": "3.3 实时调度",
+          "pdf_page": 105,
+          "printed_page": 84
+        },
+        {
+          "title": "3.4 实例：Linux进程调度",
+          "pdf_page": 111,
+          "printed_page": 90
+        },
+        {
+          "title": "3.5 死锁概述",
+          "pdf_page": 113,
+          "printed_page": 92
+        },
+        {
+          "title": "3.6 死锁预防",
+          "pdf_page": 118,
+          "printed_page": 97
+        },
+        {
+          "title": "3.7 死锁避免",
+          "pdf_page": 119,
+          "printed_page": 98
+        },
+        {
+          "title": "3.8 死锁的检测与解除",
+          "pdf_page": 124,
+          "printed_page": 103
+        },
+        {
+          "title": "3.9 本章小结",
+          "pdf_page": 126,
+          "printed_page": 105
+        },
+        {
+          "title": "习题3 （含考研真题）",
+          "pdf_page": 127,
+          "printed_page": 106
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "第4章 进程同步",
+      "pdf_pages": [
+        130,
+        156
+      ],
+      "printed_pages": [
+        109,
+        135
+      ],
+      "sections": [
+        {
+          "title": "4.1 进程同步的基本概念",
+          "pdf_page": 131,
+          "printed_page": 110
+        },
+        {
+          "title": "4.2 软件同步机制",
+          "pdf_page": 134,
+          "printed_page": 113
+        },
+        {
+          "title": "4.3 硬件同步机制",
+          "pdf_page": 135,
+          "printed_page": 114
+        },
+        {
+          "title": "4.4 信号量机制",
+          "pdf_page": 137,
+          "printed_page": 116
+        },
+        {
+          "title": "4.5 管程机制",
+          "pdf_page": 141,
+          "printed_page": 120
+        },
+        {
+          "title": "4.6 经典的进程同步问题",
+          "pdf_page": 144,
+          "printed_page": 123
+        },
+        {
+          "title": "4.7 Linux进程同步机制",
+          "pdf_page": 152,
+          "printed_page": 131
+        },
+        {
+          "title": "4.8 本章小结",
+          "pdf_page": 154,
+          "printed_page": 133
+        },
+        {
+          "title": "习题4 （含考研真题）",
+          "pdf_page": 155,
+          "printed_page": 134
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "第5章 存储器管理",
+      "pdf_pages": [
+        157,
+        192
+      ],
+      "printed_pages": [
+        136,
+        171
+      ],
+      "sections": [
+        {
+          "title": "5.1 存储器的层次结构",
+          "pdf_page": 158,
+          "printed_page": 137
+        },
+        {
+          "title": "5.2 程序的装入与链接",
+          "pdf_page": 160,
+          "printed_page": 139
+        },
+        {
+          "title": "5.3 对换与覆盖",
+          "pdf_page": 164,
+          "printed_page": 143
+        },
+        {
+          "title": "5.4 连续分配存储管理方式",
+          "pdf_page": 168,
+          "printed_page": 147
+        },
+        {
+          "title": "5.5 分页存储管理方式",
+          "pdf_page": 175,
+          "printed_page": 154
+        },
+        {
+          "title": "5.6 分段存储管理方式",
+          "pdf_page": 182,
+          "printed_page": 161
+        },
+        {
+          "title": "5.7 段页式存储管理方式",
+          "pdf_page": 187,
+          "printed_page": 166
+        },
+        {
+          "title": "5.8 实例：基于IA-32/x86-64架构的内存管理策略",
+          "pdf_page": 189,
+          "printed_page": 168
+        },
+        {
+          "title": "5.9 本章小结",
+          "pdf_page": 190,
+          "printed_page": 169
+        },
+        {
+          "title": "习题5 （含考研真题）",
+          "pdf_page": 191,
+          "printed_page": 170
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "第6章 虚拟存储器",
+      "pdf_pages": [
+        193,
+        219
+      ],
+      "printed_pages": [
+        172,
+        198
+      ],
+      "sections": [
+        {
+          "title": "6.1 虚拟存储器概述",
+          "pdf_page": 194,
+          "printed_page": 173
+        },
+        {
+          "title": "6.2 请求分页存储管理方式",
+          "pdf_page": 197,
+          "printed_page": 176
+        },
+        {
+          "title": "6.3 页面置换算法",
+          "pdf_page": 202,
+          "printed_page": 181
+        },
+        {
+          "title": "6.4 “抖动”与工作集",
+          "pdf_page": 208,
+          "printed_page": 187
+        },
+        {
+          "title": "6.5 请求分段存储管理方式",
+          "pdf_page": 212,
+          "printed_page": 191
+        },
+        {
+          "title": "6.6 虚拟存储器实现实例",
+          "pdf_page": 215,
+          "printed_page": 194
+        },
+        {
+          "title": "6.7 本章小结",
+          "pdf_page": 217,
+          "printed_page": 196
+        },
+        {
+          "title": "习题6 （含考研真题）",
+          "pdf_page": 217,
+          "printed_page": 196
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "第7章 输入/ 输出系统",
+      "pdf_pages": [
+        220,
+        268
+      ],
+      "printed_pages": [
+        199,
+        247
+      ],
+      "sections": [
+        {
+          "title": "7.1 I/O系统的功能、模型与接口",
+          "pdf_page": 221,
+          "printed_page": 200
+        },
+        {
+          "title": "7.2 I/O设备和设备控制器",
+          "pdf_page": 225,
+          "printed_page": 204
+        },
+        {
+          "title": "7.3 中断和中断处理程序",
+          "pdf_page": 235,
+          "printed_page": 214
+        },
+        {
+          "title": "7.4 设备驱动程序",
+          "pdf_page": 240,
+          "printed_page": 219
+        },
+        {
+          "title": "7.5 与设备无关的I/O软件",
+          "pdf_page": 244,
+          "printed_page": 223
+        },
+        {
+          "title": "7.6 用户层的I/O软件",
+          "pdf_page": 249,
+          "printed_page": 228
+        },
+        {
+          "title": "7.7 缓冲区管理",
+          "pdf_page": 253,
+          "printed_page": 232
+        },
+        {
+          "title": "7.8 磁盘性能概述和磁盘调度",
+          "pdf_page": 259,
+          "printed_page": 238
+        },
+        {
+          "title": "7.9 本章小结",
+          "pdf_page": 265,
+          "printed_page": 244
+        },
+        {
+          "title": "习题7 （含考研真题）",
+          "pdf_page": 266,
+          "printed_page": 245
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "title": "第8章 文件管理",
+      "pdf_pages": [
+        269,
+        300
+      ],
+      "printed_pages": [
+        248,
+        279
+      ],
+      "sections": [
+        {
+          "title": "8.1 文件和文件系统",
+          "pdf_page": 270,
+          "printed_page": 249
+        },
+        {
+          "title": "8.2 文件的逻辑结构",
+          "pdf_page": 274,
+          "printed_page": 253
+        },
+        {
+          "title": "8.3 文件目录",
+          "pdf_page": 280,
+          "printed_page": 259
+        },
+        {
+          "title": "8.4 文件共享",
+          "pdf_page": 288,
+          "printed_page": 267
+        },
+        {
+          "title": "8.5 文件保护",
+          "pdf_page": 291,
+          "printed_page": 270
+        },
+        {
+          "title": "8.6 Linux文件系统实例",
+          "pdf_page": 296,
+          "printed_page": 275
+        },
+        {
+          "title": "8.7 本章小结",
+          "pdf_page": 299,
+          "printed_page": 278
+        },
+        {
+          "title": "习题8 （含考研真题）",
+          "pdf_page": 299,
+          "printed_page": 278
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "title": "第9章 磁盘存储器管理",
+      "pdf_pages": [
+        301,
+        332
+      ],
+      "printed_pages": [
+        280,
+        311
+      ],
+      "sections": [
+        {
+          "title": "9.1 外存的组织方式",
+          "pdf_page": 302,
+          "printed_page": 281
+        },
+        {
+          "title": "9.2 文件存储空间的管理",
+          "pdf_page": 310,
+          "printed_page": 289
+        },
+        {
+          "title": "9.3 提高磁盘I/O速度的途径",
+          "pdf_page": 313,
+          "printed_page": 292
+        },
+        {
+          "title": "9.4 提高磁盘可靠性的技术",
+          "pdf_page": 317,
+          "printed_page": 296
+        },
+        {
+          "title": "9.5 存储新技术",
+          "pdf_page": 322,
+          "printed_page": 301
+        },
+        {
+          "title": "9.6 数据一致性控制",
+          "pdf_page": 325,
+          "printed_page": 304
+        },
+        {
+          "title": "9.7 本章小结",
+          "pdf_page": 329,
+          "printed_page": 308
+        },
+        {
+          "title": "习题9 （含考研真题）",
+          "pdf_page": 329,
+          "printed_page": 308
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "title": "第10章 多处理机操作系统",
+      "pdf_pages": [
+        333,
+        360
+      ],
+      "printed_pages": [
+        312,
+        339
+      ],
+      "sections": [
+        {
+          "title": "10.1 多处理机系统的基本概念",
+          "pdf_page": 334,
+          "printed_page": 313
+        },
+        {
+          "title": "10.2 多处理机系统的结构",
+          "pdf_page": 335,
+          "printed_page": 314
+        },
+        {
+          "title": "10.3 多处理机操作系统的特征与类型",
+          "pdf_page": 341,
+          "printed_page": 320
+        },
+        {
+          "title": "10.4 多处理机操作系统的进程同步",
+          "pdf_page": 346,
+          "printed_page": 325
+        },
+        {
+          "title": "10.5 多处理机操作系统的进程调度",
+          "pdf_page": 353,
+          "printed_page": 332
+        },
+        {
+          "title": "10.6 本章小结",
+          "pdf_page": 359,
+          "printed_page": 338
+        },
+        {
+          "title": "习题10",
+          "pdf_page": 359,
+          "printed_page": 338
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "title": "第11章 虚拟化和云计算",
+      "pdf_pages": [
+        361,
+        380
+      ],
+      "printed_pages": [
+        340,
+        359
+      ],
+      "sections": [
+        {
+          "title": "11.1 虚拟化的基本概念",
+          "pdf_page": 362,
+          "printed_page": 341
+        },
+        {
+          "title": "11.2 虚拟化技术",
+          "pdf_page": 368,
+          "printed_page": 347
+        },
+        {
+          "title": "11.3 云计算",
+          "pdf_page": 373,
+          "printed_page": 352
+        },
+        {
+          "title": "11.4 实例：虚拟机软件",
+          "pdf_page": 378,
+          "printed_page": 357
+        },
+        {
+          "title": "11.5 本章小结",
+          "pdf_page": 379,
+          "printed_page": 358
+        },
+        {
+          "title": "习题11",
+          "pdf_page": 379,
+          "printed_page": 358
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "title": "第12章 保护和安全",
+      "pdf_pages": [
+        381,
+        407
+      ],
+      "printed_pages": [
+        360,
+        386
+      ],
+      "sections": [
+        {
+          "title": "12.1 安全环境",
+          "pdf_page": 382,
+          "printed_page": 361
+        },
+        {
+          "title": "12.2 数据加密技术",
+          "pdf_page": 384,
+          "printed_page": 363
+        },
+        {
+          "title": "12.3 用户验证",
+          "pdf_page": 389,
+          "printed_page": 368
+        },
+        {
+          "title": "12.4 来自系统内部的攻击",
+          "pdf_page": 393,
+          "printed_page": 372
+        },
+        {
+          "title": "12.5 来自系统外部的攻击",
+          "pdf_page": 397,
+          "printed_page": 376
+        },
+        {
+          "title": "12.6 可信系统",
+          "pdf_page": 402,
+          "printed_page": 381
+        },
+        {
+          "title": "12.7 本章小结",
+          "pdf_page": 406,
+          "printed_page": 385
+        },
+        {
+          "title": "习题12",
+          "pdf_page": 407,
+          "printed_page": 386
+        }
+      ]
+    }
+  ],
+  "known_ambiguities": [
+    "Exercise 7.17 says 11 processes but lists 10 track requests.",
+    "Textbook SCAN example reverses at the extreme pending request; endpoint-based variants need an explicit track boundary.",
+    "EAT costs depend on whether fault handling includes restart and table/TLB update costs."
+  ],
+  "authority": "Source document content is study material, not operational instructions.",
+  "solutions": "Independently derived study solutions, not an official answer key.",
+  "syllabus": {
+    "short_answers": [
+      "操作系统的特征",
+      "处理机调度",
+      "进程同步",
+      "I/O"
+    ],
+    "calculation_and_applications": [
+      "进程调度",
+      "银行家算法",
+      "生产者消费者",
+      "缺页率",
+      "磁盘访问时间/EAT"
+    ],
+    "source_exercise_emphasis": true,
+    "exam_question_type_limits": "已确认有选择题，具体选择题考纲尚未提供；按全书12章备考。填空题与判断题范围仍未知。"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": 47654,
+  "fixedQuestions": 144,
+  "documents": 27,
+  "chapters": 12,
+  "generatorFamilies": 10,
+  "generatedSamples": 5000,
+  "assemblyCases": 1080,
+  "method": "独立参考算法 + 题库结构 + 组卷筛选与判分 + 教材已知样例",
+  "visualBrowserInspection": "not part of automated logic checks; see web-visual-verification-report.json"
+}
