@@ -23,6 +23,8 @@ jobs:
         run: python3 tools/verify_knowledge_base.py
       - name: Build web content
         run: python3 tools/build_web_content.py
+      - name: Verify theme behavior
+        run: node tools/verify_theme.cjs
       - name: Verify web logic
         run: node tools/verify_web.cjs
       - name: Verify web flows

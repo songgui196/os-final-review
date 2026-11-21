@@ -3,7 +3,11 @@
   "date": "2026-11-21",
   "environment": "Headless Chrome with CDP device emulation; DOM metrics and UI clicks in an isolated QA profile",
   "target": "local HTTP server",
-  "viewportCases": 48,
+  "viewportCases": 96,
+  "themes": [
+    "light",
+    "dark"
+  ],
   "widths": [
     320,
     360,
@@ -12,7 +16,15 @@
     1024,
     1440
   ],
+  "print": {
+    "background": "rgb(255, 255, 255)",
+    "foreground": "rgb(78, 94, 74)",
+    "switchDisplay": "none",
+    "colorScheme": "light"
+  },
+  "contrastChecks": 252,
   "flows": [
+    "theme toggle, keyboard access, system preference and saved choice",
     "ten-question assembly",
     "answer selection",
     "draft reload recovery",
@@ -24,436 +36,3880 @@
   "browserExceptions": [],
   "cases": [
     {
+      "theme": "light",
       "width": 320,
       "route": "home",
       "viewport": 320,
       "scrollWidth": 320,
       "textLength": 917,
       "heading": "把知识串起来，把期末准备好。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 320,
       "route": "library",
       "viewport": 320,
       "scrollWidth": 320,
       "textLength": 4066,
       "heading": "知识库",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 320,
       "route": "quiz",
       "viewport": 320,
       "scrollWidth": 320,
       "textLength": 714,
       "heading": "把“看懂了”变成“选对了”。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 320,
       "route": "wrong",
       "viewport": 320,
       "scrollWidth": 320,
-      "textLength": 2062,
+      "textLength": 2464,
       "heading": "错过的题，再理解一次。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 320,
       "route": "reader",
       "viewport": 320,
       "scrollWidth": 320,
       "textLength": 2155,
       "heading": "课后题解析",
-      "tables": 3
+      "tables": 3,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 320,
       "route": "reference",
       "viewport": 320,
       "scrollWidth": 320,
       "textLength": 896,
       "heading": "复习资料",
-      "tables": 1
+      "tables": 1,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 320,
       "route": "practice",
       "viewport": 320,
       "scrollWidth": 320,
-      "textLength": 312,
+      "textLength": 254,
       "heading": "一道一道，稳稳地答。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 320,
       "route": "result",
       "viewport": 320,
       "scrollWidth": 320,
-      "textLength": 2130,
+      "textLength": 2456,
       "heading": "找到薄弱点，就是进步的开始。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 360,
       "route": "home",
       "viewport": 360,
       "scrollWidth": 360,
       "textLength": 917,
       "heading": "把知识串起来，把期末准备好。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 360,
       "route": "library",
       "viewport": 360,
       "scrollWidth": 360,
       "textLength": 4066,
       "heading": "知识库",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 360,
       "route": "quiz",
       "viewport": 360,
       "scrollWidth": 360,
       "textLength": 714,
       "heading": "把“看懂了”变成“选对了”。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 360,
       "route": "wrong",
       "viewport": 360,
       "scrollWidth": 360,
-      "textLength": 2062,
+      "textLength": 2464,
       "heading": "错过的题，再理解一次。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 360,
       "route": "reader",
       "viewport": 360,
       "scrollWidth": 360,
       "textLength": 2155,
       "heading": "课后题解析",
-      "tables": 3
+      "tables": 3,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 360,
       "route": "reference",
       "viewport": 360,
       "scrollWidth": 360,
       "textLength": 896,
       "heading": "复习资料",
-      "tables": 1
+      "tables": 1,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 360,
       "route": "practice",
       "viewport": 360,
       "scrollWidth": 360,
-      "textLength": 312,
+      "textLength": 254,
       "heading": "一道一道，稳稳地答。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 360,
       "route": "result",
       "viewport": 360,
       "scrollWidth": 360,
-      "textLength": 2130,
+      "textLength": 2456,
       "heading": "找到薄弱点，就是进步的开始。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 390,
       "route": "home",
       "viewport": 390,
       "scrollWidth": 390,
       "textLength": 917,
       "heading": "把知识串起来，把期末准备好。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 390,
       "route": "library",
       "viewport": 390,
       "scrollWidth": 390,
       "textLength": 4066,
       "heading": "知识库",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 390,
       "route": "quiz",
       "viewport": 390,
       "scrollWidth": 390,
       "textLength": 714,
       "heading": "把“看懂了”变成“选对了”。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 390,
       "route": "wrong",
       "viewport": 390,
       "scrollWidth": 390,
-      "textLength": 2062,
+      "textLength": 2464,
       "heading": "错过的题，再理解一次。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 390,
       "route": "reader",
       "viewport": 390,
       "scrollWidth": 390,
       "textLength": 2155,
       "heading": "课后题解析",
-      "tables": 3
+      "tables": 3,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 390,
       "route": "reference",
       "viewport": 390,
       "scrollWidth": 390,
       "textLength": 896,
       "heading": "复习资料",
-      "tables": 1
+      "tables": 1,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 390,
       "route": "practice",
       "viewport": 390,
       "scrollWidth": 390,
-      "textLength": 312,
+      "textLength": 254,
       "heading": "一道一道，稳稳地答。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 390,
       "route": "result",
       "viewport": 390,
       "scrollWidth": 390,
-      "textLength": 2130,
+      "textLength": 2456,
       "heading": "找到薄弱点，就是进步的开始。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 768,
       "route": "home",
       "viewport": 768,
       "scrollWidth": 753,
       "textLength": 956,
       "heading": "把知识串起来，把期末准备好。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 768,
       "route": "library",
       "viewport": 768,
       "scrollWidth": 753,
       "textLength": 4066,
       "heading": "知识库",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 768,
       "route": "quiz",
       "viewport": 768,
       "scrollWidth": 753,
       "textLength": 714,
       "heading": "把“看懂了”变成“选对了”。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 768,
       "route": "wrong",
       "viewport": 768,
       "scrollWidth": 753,
-      "textLength": 2062,
+      "textLength": 2464,
       "heading": "错过的题，再理解一次。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 768,
       "route": "reader",
       "viewport": 768,
       "scrollWidth": 753,
       "textLength": 2155,
       "heading": "课后题解析",
-      "tables": 3
+      "tables": 3,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 768,
       "route": "reference",
       "viewport": 768,
       "scrollWidth": 753,
       "textLength": 896,
       "heading": "复习资料",
-      "tables": 1
+      "tables": 1,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 768,
       "route": "practice",
       "viewport": 768,
       "scrollWidth": 753,
-      "textLength": 326,
+      "textLength": 268,
       "heading": "一道一道，稳稳地答。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 768,
       "route": "result",
       "viewport": 768,
       "scrollWidth": 753,
-      "textLength": 2130,
+      "textLength": 2456,
       "heading": "找到薄弱点，就是进步的开始。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1024,
       "route": "home",
       "viewport": 1024,
       "scrollWidth": 1009,
       "textLength": 956,
       "heading": "把知识串起来，把期末准备好。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1024,
       "route": "library",
       "viewport": 1024,
       "scrollWidth": 1009,
       "textLength": 4066,
       "heading": "知识库",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1024,
       "route": "quiz",
       "viewport": 1024,
       "scrollWidth": 1009,
       "textLength": 714,
       "heading": "把“看懂了”变成“选对了”。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1024,
       "route": "wrong",
       "viewport": 1024,
       "scrollWidth": 1009,
-      "textLength": 2062,
+      "textLength": 2464,
       "heading": "错过的题，再理解一次。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1024,
       "route": "reader",
       "viewport": 1024,
       "scrollWidth": 1009,
       "textLength": 2217,
       "heading": "课后题解析",
-      "tables": 3
+      "tables": 3,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1024,
       "route": "reference",
       "viewport": 1024,
       "scrollWidth": 1009,
       "textLength": 901,
       "heading": "复习资料",
-      "tables": 1
+      "tables": 1,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1024,
       "route": "practice",
       "viewport": 1024,
       "scrollWidth": 1024,
-      "textLength": 383,
+      "textLength": 325,
       "heading": "一道一道，稳稳地答。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1024,
       "route": "result",
       "viewport": 1024,
       "scrollWidth": 1009,
-      "textLength": 2130,
+      "textLength": 2456,
       "heading": "找到薄弱点，就是进步的开始。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1440,
       "route": "home",
       "viewport": 1440,
       "scrollWidth": 1425,
       "textLength": 956,
       "heading": "把知识串起来，把期末准备好。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1440,
       "route": "library",
       "viewport": 1440,
       "scrollWidth": 1425,
       "textLength": 4066,
       "heading": "知识库",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1440,
       "route": "quiz",
       "viewport": 1440,
       "scrollWidth": 1425,
       "textLength": 714,
       "heading": "把“看懂了”变成“选对了”。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1440,
       "route": "wrong",
       "viewport": 1440,
       "scrollWidth": 1425,
-      "textLength": 2062,
+      "textLength": 2464,
       "heading": "错过的题，再理解一次。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1440,
       "route": "reader",
       "viewport": 1440,
       "scrollWidth": 1425,
       "textLength": 2217,
       "heading": "课后题解析",
-      "tables": 3
+      "tables": 3,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1440,
       "route": "reference",
       "viewport": 1440,
       "scrollWidth": 1425,
       "textLength": 901,
       "heading": "复习资料",
-      "tables": 1
+      "tables": 1,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1440,
       "route": "practice",
       "viewport": 1440,
       "scrollWidth": 1440,
-      "textLength": 383,
+      "textLength": 325,
       "heading": "一道一道，稳稳地答。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
     },
     {
+      "theme": "light",
       "width": 1440,
       "route": "result",
       "viewport": 1440,
       "scrollWidth": 1425,
-      "textLength": 2130,
+      "textLength": 2456,
       "heading": "找到薄弱点，就是进步的开始。",
-      "tables": 0
+      "tables": 0,
+      "contrasts": []
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "route": "home",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "textLength": 917,
+      "heading": "把知识串起来，把期末准备好。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".hero-copy p",
+          "ratio": 5.626140956092548,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            58,
+            45
+          ]
+        },
+        {
+          "selector": ".hero .btn.primary",
+          "ratio": 9.45370517337691,
+          "required": 4.5,
+          "foreground": "rgb(29, 48, 38)",
+          "background": [
+            199,
+            220,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "route": "library",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "textLength": 4066,
+      "heading": "知识库",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".doc-card p",
+          "ratio": 6.965797749243726,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "route": "quiz",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "textLength": 714,
+      "heading": "把“看懂了”变成“选对了”。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".setup-summary p",
+          "ratio": 5.961133432015218,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "route": "wrong",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "textLength": 2464,
+      "heading": "错过的题，再理解一次。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 9.178958830164758,
+          "required": 4.5,
+          "foreground": "rgb(191, 208, 178)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "route": "reader",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "textLength": 2155,
+      "heading": "课后题解析",
+      "tables": 3,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose h2",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose strong",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "route": "reference",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "textLength": 896,
+      "heading": "复习资料",
+      "tables": 1,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "route": "practice",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "textLength": 254,
+      "heading": "一道一道，稳稳地答。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 8.227553183363039,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            48,
+            71,
+            47
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "route": "result",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "textLength": 2456,
+      "heading": "找到薄弱点，就是进步的开始。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 9.357921333311522,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            41,
+            62,
+            43
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".result-copy p",
+          "ratio": 5.50537262384855,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            60,
+            43
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "route": "home",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "textLength": 917,
+      "heading": "把知识串起来，把期末准备好。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".hero-copy p",
+          "ratio": 5.626140956092548,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            58,
+            45
+          ]
+        },
+        {
+          "selector": ".hero .btn.primary",
+          "ratio": 9.45370517337691,
+          "required": 4.5,
+          "foreground": "rgb(29, 48, 38)",
+          "background": [
+            199,
+            220,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "route": "library",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "textLength": 4066,
+      "heading": "知识库",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".doc-card p",
+          "ratio": 6.965797749243726,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "route": "quiz",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "textLength": 714,
+      "heading": "把“看懂了”变成“选对了”。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".setup-summary p",
+          "ratio": 5.961133432015218,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "route": "wrong",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "textLength": 2464,
+      "heading": "错过的题，再理解一次。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 9.178958830164758,
+          "required": 4.5,
+          "foreground": "rgb(191, 208, 178)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "route": "reader",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "textLength": 2155,
+      "heading": "课后题解析",
+      "tables": 3,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose h2",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose strong",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "route": "reference",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "textLength": 896,
+      "heading": "复习资料",
+      "tables": 1,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "route": "practice",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "textLength": 254,
+      "heading": "一道一道，稳稳地答。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 8.227553183363039,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            48,
+            71,
+            47
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "route": "result",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "textLength": 2456,
+      "heading": "找到薄弱点，就是进步的开始。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 9.357921333311522,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            41,
+            62,
+            43
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".result-copy p",
+          "ratio": 5.50537262384855,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            60,
+            43
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "home",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "textLength": 917,
+      "heading": "把知识串起来，把期末准备好。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".hero-copy p",
+          "ratio": 5.626140956092548,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            58,
+            45
+          ]
+        },
+        {
+          "selector": ".hero .btn.primary",
+          "ratio": 9.45370517337691,
+          "required": 4.5,
+          "foreground": "rgb(29, 48, 38)",
+          "background": [
+            199,
+            220,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "library",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "textLength": 4066,
+      "heading": "知识库",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".doc-card p",
+          "ratio": 6.965797749243726,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "quiz",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "textLength": 714,
+      "heading": "把“看懂了”变成“选对了”。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".setup-summary p",
+          "ratio": 5.961133432015218,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "wrong",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "textLength": 2464,
+      "heading": "错过的题，再理解一次。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 9.178958830164758,
+          "required": 4.5,
+          "foreground": "rgb(191, 208, 178)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "reader",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "textLength": 2155,
+      "heading": "课后题解析",
+      "tables": 3,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose h2",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose strong",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "reference",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "textLength": 896,
+      "heading": "复习资料",
+      "tables": 1,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "practice",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "textLength": 254,
+      "heading": "一道一道，稳稳地答。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 8.227553183363039,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            48,
+            71,
+            47
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "route": "result",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "textLength": 2456,
+      "heading": "找到薄弱点，就是进步的开始。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 9.357921333311522,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            41,
+            62,
+            43
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".result-copy p",
+          "ratio": 5.50537262384855,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            60,
+            43
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "route": "home",
+      "viewport": 768,
+      "scrollWidth": 753,
+      "textLength": 956,
+      "heading": "把知识串起来，把期末准备好。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".hero-copy p",
+          "ratio": 5.626140956092548,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            58,
+            45
+          ]
+        },
+        {
+          "selector": ".hero .btn.primary",
+          "ratio": 9.45370517337691,
+          "required": 4.5,
+          "foreground": "rgb(29, 48, 38)",
+          "background": [
+            199,
+            220,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "route": "library",
+      "viewport": 768,
+      "scrollWidth": 753,
+      "textLength": 4066,
+      "heading": "知识库",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".doc-card p",
+          "ratio": 6.965797749243726,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "route": "quiz",
+      "viewport": 768,
+      "scrollWidth": 753,
+      "textLength": 714,
+      "heading": "把“看懂了”变成“选对了”。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".setup-summary p",
+          "ratio": 5.961133432015218,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "route": "wrong",
+      "viewport": 768,
+      "scrollWidth": 753,
+      "textLength": 2464,
+      "heading": "错过的题，再理解一次。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 9.178958830164758,
+          "required": 4.5,
+          "foreground": "rgb(191, 208, 178)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "route": "reader",
+      "viewport": 768,
+      "scrollWidth": 753,
+      "textLength": 2155,
+      "heading": "课后题解析",
+      "tables": 3,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose h2",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose strong",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "route": "reference",
+      "viewport": 768,
+      "scrollWidth": 753,
+      "textLength": 896,
+      "heading": "复习资料",
+      "tables": 1,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "route": "practice",
+      "viewport": 768,
+      "scrollWidth": 753,
+      "textLength": 268,
+      "heading": "一道一道，稳稳地答。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 8.227553183363039,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            48,
+            71,
+            47
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "route": "result",
+      "viewport": 768,
+      "scrollWidth": 753,
+      "textLength": 2456,
+      "heading": "找到薄弱点，就是进步的开始。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 9.357921333311522,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            41,
+            62,
+            43
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".result-copy p",
+          "ratio": 5.50537262384855,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            60,
+            43
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "route": "home",
+      "viewport": 1024,
+      "scrollWidth": 1009,
+      "textLength": 956,
+      "heading": "把知识串起来，把期末准备好。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".hero-copy p",
+          "ratio": 5.626140956092548,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            58,
+            45
+          ]
+        },
+        {
+          "selector": ".hero .btn.primary",
+          "ratio": 9.45370517337691,
+          "required": 4.5,
+          "foreground": "rgb(29, 48, 38)",
+          "background": [
+            199,
+            220,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "route": "library",
+      "viewport": 1024,
+      "scrollWidth": 1009,
+      "textLength": 4066,
+      "heading": "知识库",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".doc-card p",
+          "ratio": 6.965797749243726,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "route": "quiz",
+      "viewport": 1024,
+      "scrollWidth": 1009,
+      "textLength": 714,
+      "heading": "把“看懂了”变成“选对了”。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".setup-summary p",
+          "ratio": 5.961133432015218,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "route": "wrong",
+      "viewport": 1024,
+      "scrollWidth": 1009,
+      "textLength": 2464,
+      "heading": "错过的题，再理解一次。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 9.178958830164758,
+          "required": 4.5,
+          "foreground": "rgb(191, 208, 178)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "route": "reader",
+      "viewport": 1024,
+      "scrollWidth": 1009,
+      "textLength": 2217,
+      "heading": "课后题解析",
+      "tables": 3,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose h2",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose strong",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "route": "reference",
+      "viewport": 1024,
+      "scrollWidth": 1009,
+      "textLength": 901,
+      "heading": "复习资料",
+      "tables": 1,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "route": "practice",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "textLength": 325,
+      "heading": "一道一道，稳稳地答。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 8.227553183363039,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            48,
+            71,
+            47
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "route": "result",
+      "viewport": 1024,
+      "scrollWidth": 1009,
+      "textLength": 2456,
+      "heading": "找到薄弱点，就是进步的开始。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 9.357921333311522,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            41,
+            62,
+            43
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".result-copy p",
+          "ratio": 5.50537262384855,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            60,
+            43
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "home",
+      "viewport": 1440,
+      "scrollWidth": 1425,
+      "textLength": 956,
+      "heading": "把知识串起来，把期末准备好。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".hero-copy p",
+          "ratio": 5.626140956092548,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            58,
+            45
+          ]
+        },
+        {
+          "selector": ".hero .btn.primary",
+          "ratio": 9.45370517337691,
+          "required": 4.5,
+          "foreground": "rgb(29, 48, 38)",
+          "background": [
+            199,
+            220,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "library",
+      "viewport": 1440,
+      "scrollWidth": 1425,
+      "textLength": 4066,
+      "heading": "知识库",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".doc-card p",
+          "ratio": 6.965797749243726,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "quiz",
+      "viewport": 1440,
+      "scrollWidth": 1425,
+      "textLength": 714,
+      "heading": "把“看懂了”变成“选对了”。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".setup-summary p",
+          "ratio": 5.961133432015218,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "wrong",
+      "viewport": 1440,
+      "scrollWidth": 1425,
+      "textLength": 2464,
+      "heading": "错过的题，再理解一次。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 9.178958830164758,
+          "required": 4.5,
+          "foreground": "rgb(191, 208, 178)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "reader",
+      "viewport": 1440,
+      "scrollWidth": 1425,
+      "textLength": 2217,
+      "heading": "课后题解析",
+      "tables": 3,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose h2",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose strong",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "reference",
+      "viewport": 1440,
+      "scrollWidth": 1425,
+      "textLength": 901,
+      "heading": "复习资料",
+      "tables": 1,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".prose",
+          "ratio": 10.554332939953717,
+          "required": 4.5,
+          "foreground": "rgb(208, 220, 206)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".prose code",
+          "ratio": 8.08260193911049,
+          "required": 4.5,
+          "foreground": "rgb(196, 225, 183)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        },
+        {
+          "selector": ".prose th",
+          "ratio": 8.601531910751122,
+          "required": 4.5,
+          "foreground": "rgb(213, 228, 199)",
+          "background": [
+            43,
+            62,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "practice",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "textLength": 325,
+      "heading": "一道一道，稳稳地答。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".page-head h1",
+          "ratio": 14.132150533702445,
+          "required": 3,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".page-head p",
+          "ratio": 8.118824632676057,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            17,
+            28,
+            25
+          ]
+        },
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 8.227553183363039,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            48,
+            71,
+            47
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "route": "result",
+      "viewport": 1440,
+      "scrollWidth": 1425,
+      "textLength": 2456,
+      "heading": "找到薄弱点，就是进步的开始。",
+      "tables": 0,
+      "contrasts": [
+        {
+          "selector": ".question-stem",
+          "ratio": 12.125117468781992,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            27,
+            42,
+            36
+          ]
+        },
+        {
+          "selector": ".option",
+          "ratio": 9.357921333311522,
+          "required": 4.5,
+          "foreground": "rgb(225, 234, 221)",
+          "background": [
+            41,
+            62,
+            43
+          ]
+        },
+        {
+          "selector": ".option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        },
+        {
+          "selector": ".explanation",
+          "ratio": 7.666822029871585,
+          "required": 4.5,
+          "foreground": "rgb(189, 205, 182)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".explanation strong",
+          "ratio": 6.965117743701134,
+          "required": 4.5,
+          "foreground": "rgb(165, 201, 154)",
+          "background": [
+            37,
+            54,
+            42
+          ]
+        },
+        {
+          "selector": ".result-copy p",
+          "ratio": 5.50537262384855,
+          "required": 4.5,
+          "foreground": "rgb(165, 181, 168)",
+          "background": [
+            41,
+            60,
+            43
+          ]
+        },
+        {
+          "selector": ".option.correct .option-letter",
+          "ratio": 8.502087654887855,
+          "required": 4.5,
+          "foreground": "rgb(26, 44, 31)",
+          "background": [
+            177,
+            206,
+            145
+          ]
+        }
+      ]
     }
   ]
 }
